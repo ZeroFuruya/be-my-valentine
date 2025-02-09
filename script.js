@@ -212,7 +212,7 @@ You inspired me to be a better person, even without knowing it. Because of you, 
 Thank you kaayo, Althea. Even if we’re not close, you made a huge impact on my life just by being my secret crush. Hoping this message won't change our friendship and make things awkward.`,
         promises: [],
         closing: "",
-        signature: "Yours truly,<br>Aeji 💝"
+        signature: "Yours truly,<br>Aenon 💝"
     };
 
     // Function to generate love letter HTML
