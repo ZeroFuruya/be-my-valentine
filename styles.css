@@ -41,7 +41,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 20px;
+    max-width: 80vw;
     height: 90vh;
     perspective: 1000px;
 }
@@ -228,7 +228,8 @@ h1 {
     margin: 20px auto;
     width: min(90%, 600px);
     text-align: left;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+
     line-height: 1.6;
     transform: rotate(-2deg);
     position: relative;
