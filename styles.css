@@ -41,13 +41,11 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1000px;
-    height: 90vh;
+    max-width: 400px;
     perspective: 1000px;
 }
 
 .card {
-    height: 70vh;
     background: rgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 25px;
@@ -111,17 +109,12 @@ h1 {
 }
 
 .buttons {
-    position: absolute;
-    bottom: 20px; /* Ensures it's always at the bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%; /* Ensures buttons take full width */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: center;
+    margin-top: 30px;
+    position: relative;
 }
-
 
 .btn {
     border: none;
@@ -228,8 +221,7 @@ h1 {
     margin: 20px auto;
     width: min(90%, 600px);
     text-align: left;
-    font-family: 'Pacifico', cursive;
-
+    font-family: 'Dancing Script', cursive;
     line-height: 1.6;
     transform: rotate(-2deg);
     position: relative;
