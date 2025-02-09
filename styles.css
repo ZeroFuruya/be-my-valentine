@@ -41,7 +41,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 500px;
+    max-width: 20px;
     height: 90vh;
     perspective: 1000px;
 }
