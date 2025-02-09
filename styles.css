@@ -41,13 +41,13 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
     max-width: 1000px;
-    max-height: 90vh;
+    height: 90vh;
     perspective: 1000px;
 }
 
 .card {
+    height: 70vh;
     background: rgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 25px;
@@ -111,12 +111,17 @@ h1 {
 }
 
 .buttons {
+    position: absolute;
+    bottom: 20px; /* Ensures it's always at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Ensures buttons take full width */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 30px;
-    position: relative;
+    align-items: center;
 }
+
 
 .btn {
     border: none;
